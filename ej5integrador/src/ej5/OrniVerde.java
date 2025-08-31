@@ -3,10 +3,6 @@ package ej5;
 
 public class OrniVerde extends Castor implements Pata{
     
-    public void nadar(){
-        
-    }
-    @Override
     public void tocarOrgano(){
        Scanner leerTecla=new Scanner(System.in);
         System.out.println("Do-Re-Mi");
