@@ -2,9 +2,14 @@
 package ej5;
 
 public class OrniVerde extends Castor implements Pata{
-    
+    public OrniVerde(String nombre,double cola,double velocidad) {
+        super(cola, velocidad);
+        this.nombre = nombre;
+    }
+
+    @Override
     public void tocarOrgano(){
-       Scanner leerTecla=new Scanner(System.in);
+        Scanner leerTecla=new Scanner(System.in);
         System.out.println("Do-Re-Mi");
         System.out.println("oprima tecla");
         String tecla=leerTecla.nextLine();
