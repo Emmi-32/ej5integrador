@@ -8,12 +8,16 @@ public class OrniVerde extends Castor implements Pata{
     }
     @Override
     public void tocarOrgano(){
-        System.out.println("cuac cuaac…!");
+       Scanner leerTecla=new Scanner(System.in);
+        System.out.println("Do-Re-Mi");
+        System.out.println("oprima tecla");
+        String tecla=leerTecla.nextLine();
+        if(tecla!=null)
+        System.out.println("Fa-Sol-La-Si");  
     }
     public void tocarGuitorgan(){
         super.tocarGuitarra();
         tocarOrgano();
-        
-        
+        System.out.println("cuac cuaac…!");
     }
 }
