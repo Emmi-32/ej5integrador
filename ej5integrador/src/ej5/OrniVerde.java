@@ -2,9 +2,8 @@
 package ej5;
 
 public class OrniVerde extends Castor implements Pata{
-    public OrniVerde(String nombre,double cola,double velocidad) {
+    public OrniVerde(double cola,double velocidad) {
         super(cola, velocidad);
-        this.nombre = nombre;
     }
 
     @Override
